@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-color: #0b0c10
+} 
+
+nav {
+    position: sticky;
+    top: 0;
+    padding: 18px;
+    background-color: black;
+}
+
+.naveg {
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+}
+  
+.naveg li {
+    font-family: 'Montserrat';
+    display: inline-block;
+}
+  
+.naveg li a {
+    display: block;
+    text-decoration: none;
+    color: #66FCF1;
+    font-weight: bold;
+}
+  
+nav ul li a:hover {
+    color: #45A29E;
+}
+
+header{
+    background-image: url(images/portada2.jpg);
+    height: 600px;
+    background-size: cover;
+    padding-top:10px; 
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 90px;
+    font-weight: 800;
+    padding-top: 90px;  
+    text-shadow: 20px 2px 10px #000
+}
+
+h1 span{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    text-shadow: 2px 2px 10px white;
+}
+    
+section {
+    font-size: 25px;
+    background-color: #1F2833;
+    min-height: 300px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    padding: 10px; 
+    border-bottom-right-radius: 70px;
+}
+
+#elpueblo{
+    background-image: url(images/pueblo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 550px;
+} 
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #45A29E;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 550;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px black;
+}
+
+.textopueblo {
+    width: 50%;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+}
+
+#dondecomer{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+    }
+
+.dondecomer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;   
+    justify-content: center;   
+}
+
+#lugaresparavisitar{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #45A29E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 22px;
+    text-shadow: 4px 4px 4px black;
+}
+
+.lugares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comollegar{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+}
+   
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacto{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.textform{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2px;
+}
+
+.formulario{
+    background-color:#45A29E ;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    color: #66FCF1;
+}
+
+button:hover {
+    background-color: #C5C6C7;
+}
+
+.textocontacto {
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 25px;
+  }
+
+footer{
+    background-color: #C5C6C7;
+    background-image: url(images/yo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 120px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 15px; 
+   
+}
+
+.textofoot{
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    font-weight: 250px;
+    font-size: 15px;
+    text-shadow: 4px 4px 4px #45A29E;
+    color: black;
+    margin-left: 120px;
+    line-height:0,5;
+}
